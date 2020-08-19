@@ -93,7 +93,32 @@ p {
   margin-right: auto;
 }
 
-/*         =============================================                              */
+.image-flex {
+  width: 10%;
+}
+
+/* SM */
+@media only screen and (min-width: 48em) {
+  .image-flex {
+    width: 66%;
+  }
+}
+
+/* M */
+@media only screen and (min-width: 62em) {
+  .image-flex {
+    width: 60%;
+  }
+}
+
+/* LG */
+@media only screen and (min-width: 75em) {
+  .image-flex {
+    width: 100%;
+  }
+}
+
+/* CAROUSEL */
 
 * {box-sizing:border-box}
 

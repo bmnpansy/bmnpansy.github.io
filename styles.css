@@ -85,6 +85,19 @@ p {
   text-align: justify;
 }
 
+.parallax {
+  background-image: url("assets/parallax.jpg");
+  height: 20%;
+
+  /* Add the blur effect */
+  
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* ==== GRID SYSTEM ==== */
 
 .container {
